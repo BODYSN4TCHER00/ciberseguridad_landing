@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Menú de Navegación */}
         <div className="hidden md:flex space-x-8">
           <NavLink
-            to="/ciberseguridad"
+            to="/"
             style={{ color: isActive('/ciberseguridad') ? colors.accent : colors.textDark }}
             className={`hover:text-accent transition-colors pb-2 ${
               isActive('/ciberseguridad') ? 'border-b-2' : ''
@@ -30,16 +30,16 @@ const Navbar = () => {
             Menu
           </NavLink>
           <NavLink
-            to="/ciberseguridad/ataques"
-            style={{ color: isActive('/ciberseguridad/ataques') ? colors.accent : colors.textDark }}
+            to="/ataques"
+            style={{ color: isActive('/ataques') ? colors.accent : colors.textDark }}
             className={`hover:text-accent transition-colors pb-2 ${
-              isActive('/ciberseguridad/ataques') ? 'border-b-2' : ''
+              isActive('/ataques') ? 'border-b-2' : ''
             }`}
           >
             Ataques
           </NavLink>
           <NavLink
-            to="/ciberseguridad/confidencialidad"
+            to="/confidencialidad"
             style={{ color: isActive('/ciberseguridad/confidencialidad') ? colors.accent : colors.textDark }}
             className={`hover:text-accent transition-colors pb-2 ${
               isActive('/ciberseguridad/confidencialidad') ? 'border-b-2' : ''
@@ -48,7 +48,7 @@ const Navbar = () => {
             Confidencialidad
           </NavLink>
           <NavLink
-            to="/ciberseguridad/principios"
+            to="/principios"
             style={{ color: isActive('/ciberseguridad/principios') ? colors.accent : colors.textDark }}
             className={`hover:text-accent transition-colors pb-2 ${
               isActive('/ciberseguridad/principios') ? 'border-b-2' : ''
