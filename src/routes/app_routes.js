@@ -9,10 +9,10 @@ import ConfidentialityPage from '../pages/ConfidentialityPage.tsx';
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/ciberseguridad" element={<HomePage />} />
-      <Route path="/ciberseguridad/ataques" element={<AttacksPage />} />
-      <Route path="/ciberseguridad/confidencialidad" element={<ConfidentialityPage />} />
-      <Route path="/ciberseguridad/principios" element={<PrinciplesPage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/ataques" element={<AttacksPage />} />
+      <Route path="/confidencialidad" element={<ConfidentialityPage />} />
+      <Route path="/principios" element={<PrinciplesPage />} />
     </Routes>
   );
 };
