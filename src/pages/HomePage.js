@@ -18,17 +18,17 @@ const HomePage = () => {
           {
             title: "Ataques Cibernéticos",
             imageUrl: "https://c1.wallpaperflare.com/preview/185/698/502/matrix-communication-software-pc.jpg",
-            link: "/ciberseguridad/ataque",
+            link: "/ataque",
           },
           {
             title: "Confidencialidad de la Información",
             imageUrl: "https://c1.wallpaperflare.com/preview/857/391/665/hacking-hacker-computer-internet.jpg",
-            link: "/ciberseguridad/confidencialidad",
+            link: "/confidencialidad",
           },
           {
             title: "Principios de la Ciberseguridad",
             imageUrl: "https://c1.wallpaperflare.com/preview/182/936/1023/hacker-silhouette-hack-anonymous.jpg",
-            link: "/ciberseguridad/principios",
+            link: "/principios",
           },
         ].map((item, index) => (
           <MirrorComponent
